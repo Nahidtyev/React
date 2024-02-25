@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="row justify-content-center">
+                <div class="col-xl-10
+                ">
+                    <div class="container">
+                        <button id="form_btn"><i class="fa-solid fa-list-ul"></i></button>
+                        <form id="myForm" style="opacity: 0;">
+                            <label for="ImageUrl">ImageUrl</label>
+                            <input type="url" name="image" id="image">
+                            <label for="Vacancy">Vacancy</label>
+                            <select name="vacancy" id="vacancy">
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Hekim">Həkim</option>
+                                        <option value="Cerrah">Cərrah</option>
+                                        <option value="Laborant">Laborant</option>
+                            </select>
+                            <label for="Location">Location</label>
+                            <input type="text" name="location" id="location">
+                            <label for="Description">Description</label>
+                            <input type="text" name="description" id="description">
+                            <label for="Time1">From</label>
+                            <input type="time" name="time1" id="time1">
+                            <label for="Time2">To</label>
+                            <input type="time" name="time2" id="time2">
+                            <button id="apply">Apply Vacancy</button>
+                        </form>
+                        <div class="row justify-content-center align-items-baseline">
+                            <div class="col-xl-12">
+                                <div class="heading">
+                                    <select name="category" id="category">
+                                        <option value="Hamisi" selected>Hamısı</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Hekim">Həkim</option>
+                                        <option value="Cerrah">Cərrah</option>
+                                        <option value="Laborant">Laborant</option>
+                                    </select>
+                                    <div class="apply">
+                                        <input type="text" name="search" id="search" placeholder="Vakansiya axtar">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </div>
+                                <div class="found_card"></div>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="vacancy">
+                                    <button id="card_date">09:00-18:00</button>
+                                    <img src="https://admin.westhospital.az/uploads/images/vacancies/west-h-1682057673.webp" alt="">
+                                    <div class="information">
+                                        <div class="head">
+                                            <h4>Call center operatoru</h4>
+                                            <i class="fa-solid fa-location-dot"></i> <span>Şövkət Məmmədova küç. 52 ,Binəqədi</span>
+                                        </div>
+                                        <p>İş barədə məlumat: Daxil olan telefon zənglərinə dolğun şəkildə cavab vermək, səlahiyyətləri çəçivəsində sorğuları cavablandırmaq və telefon zənglərini müvafiq şəxslərə yönləndirmək Müəssisə daxili nizam, intizam qaydalarına əməl etmək Rəhbərlik tərəfindən verilən tapşırıqları yerinə yetirmək Daxil olan zənglərin qeydiyyatını aparmaq Ay ərzində analitik təhlil və hesabatların nəticəsini rəh...</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-baseline">
+                            <div class="col-xl-12 new_vacancy"></div>
+                        </div>
+                        <ul class="list_page">
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/5731aeb800.js" crossorigin="anonymous"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist//js/bootstrap.min.js"></script>
+    <script src="../src/js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.search-bar{
+    display: flex;
+    padding: 24px 40px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--neutral-07, #1A1D1F);
+    box-shadow: 1px 0px 0px 0px #111315 inset;
+    .srch-left{
+        position: relative;
+        padding: 8px;
+        border-radius: 12px;
+        width: max-content;
+        background: var(--neutral-06, #272B30);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        .icon{
+            position: absolute;
+            color: #6F767E;
+            left: 3%;
+        }
+        input{
+            padding: 0 30px;
+            margin: 0;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: var(--neutral-shade-dark-0450, #6F767E);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+        button{
+            text-align: center;
+            color: white;
+            padding: 4px 12px;
+            border: none;
+            border-radius: 8px;
+            background: var(--neutral-07, #1A1D1F);
+            box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.08) inset, 0px -1px 1px 0px rgba(0, 0, 0, 0.04) inset, 0px -1px 2px 0px rgba(0, 0, 0, 0.05) inset;
+        }
+    }
+    .srch-right{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        button{
+            display: flex;
+            padding: 12px 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 12px;
+            background: var(--primary-01, #2A85FF);
+            height: max-content;
+            border: none;
+            color: var(--neutral-01, #FCFCFC);
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }  
+        .image{
+            overflow: hidden;
+            border-radius: 48px;
+            background: var(--secondary-01, #FFBC99);
+            img{
+                object-fit: cover;
+                width: 48px;
+                height: 48px;
+            }
+        }
+        .icn{
+            color: #6F767E;
+        }
+    }
+}

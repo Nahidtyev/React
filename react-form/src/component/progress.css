@@ -1,0 +1,8 @@
+.progress{
+    margin: 10px 0 20px 0;
+}
+.text{
+    position: absolute;
+    right: 0;
+    bottom: -54%;
+}

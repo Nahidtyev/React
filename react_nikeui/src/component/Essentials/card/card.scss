@@ -1,0 +1,20 @@
+.image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width:740px) {
+        .image{
+            margin: 0 auto;
+            width: 50%;
+            height: 50%;
+        }
+    }
+    #btn{
+        bottom: 48px;
+        left: 48px;
+        position: absolute;
+        background-color: #fff;
+        color: black;
+    }
+}

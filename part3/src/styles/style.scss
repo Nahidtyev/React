@@ -1,0 +1,11 @@
+@forward "./utils/varaible.scss";
+@forward "./common/common.scss";
+@forward "./utils/mixin.scss";
+@forward "./utils/extends.scss";
+body {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+html {
+  scroll-behavior: smooth;
+}

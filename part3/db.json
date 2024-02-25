@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "name": "Sykes",
+      "surname": "Mcmahon",
+      "profession": "Full-Stack",
+      "email": "tyvynubari@mailinator.com",
+      "id": 1
+    },
+    {
+      "name": "Cook",
+      "surname": "Reese",
+      "profession": "Backend",
+      "email": "jyluzi@mailinator.com",
+      "id": 2
+    },
+    {
+      "name": "Ferrell",
+      "surname": "Hinton",
+      "profession": "Full-Stack",
+      "email": "lipide@mailinator.com",
+      "id": 3
+    },
+    {
+      "name": "Kidd",
+      "surname": "Ferguson",
+      "profession": "Frontend",
+      "email": "gato@mailinator.com",
+      "id": 4
+    },
+    {
+      "name": "Mccarty",
+      "surname": "Burgess",
+      "profession": "Frontend",
+      "email": "binizoq@mailinator.com",
+      "id": 5
+    }
+  ]
+}

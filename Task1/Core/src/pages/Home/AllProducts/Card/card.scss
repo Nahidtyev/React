@@ -1,0 +1,32 @@
+.cards{
+    background-color: transparent;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        margin-bottom: 16px;
+    }
+    .fl{
+        display: flex;
+        justify-content: space-between;
+        p{
+            max-width: 65%;
+            color: var(--neutral-01, #FCFCFC);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+        .prc{
+            padding: 4px 8px;
+            border-radius: 6px;
+            background: var(--secondary-04, #B5E4CA);
+            color: var(--neutral-07, #1A1D1F);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+            border: none;
+        }
+    }
+}

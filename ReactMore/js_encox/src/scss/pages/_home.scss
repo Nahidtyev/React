@@ -1,0 +1,59 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+
+#home{
+  position: relative;
+  margin-bottom: 20px;
+    .container{
+      
+        .swiper {
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          };
+        .home{
+            width: 60%;
+            margin-top: 180px;
+            margin-bottom: 80px;
+            color: #fff;
+            h1{
+                font-size: 65px;
+                margin-bottom: 30px;
+                font-weight: 900;
+            }
+            p{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+            button{
+                padding: 20px 30px;
+                border-radius: 5px;
+                background-color: $bg-color;
+                border: none;
+                @extend %defaultsize;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+    
+}

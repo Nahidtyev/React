@@ -1,0 +1,54 @@
+.featured{
+    width: 100%;
+   .image{ 
+     display: flex;
+     justify-content: center;
+   }
+   .heading{
+    margin-top: 48px;
+    p{
+        margin-bottom: 0;
+        color: #111;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px; /* 160% */
+    }
+   }
+   .btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 6px;
+   }
+   span{
+    margin-bottom: 25px;
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px; /* 127.273% */
+    font-weight: 600;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 1344px;
+            height: 700px;
+    object-fit: cover;
+  }
+}

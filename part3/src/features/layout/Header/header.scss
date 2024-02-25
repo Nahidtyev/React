@@ -1,0 +1,22 @@
+@use "../../../styles/utils/mixin.scss" as *;
+@use "../../../styles/utils/extends.scss" as *;
+@use "../../../styles/utils/varaible.scss" as *;
+
+.nav {
+  background-color: $bg-color;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.list {
+  @include Flexible(
+    $direction: row,
+    $justify: flex-end,
+    $align: center,
+    $gap: 20px
+  );
+  list-style: none;
+
+  li {
+    cursor: pointer;
+  }
+}

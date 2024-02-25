@@ -1,0 +1,10 @@
+@use "../../../styled/utils/varaible.scss" as *;
+
+footer {
+  background-color: $white-color;
+  color: $black-color;
+  padding: 20px;
+  .footer_list {
+    list-style: none;
+  }
+}

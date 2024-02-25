@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "https://s3-alpha-sig.figma.com/img/c9a7/4e8b/4c63257d68dcaabb18adafaea9b7132a?Expires=1693785600&Signature=a0ICJ1oomERCkDADNt7z9NT~M~XtvoZb85bV2LvBYe-EnUjcxIbJysAcPh~oL9PTjGlEiCAboXf2Av0VEjG-bwUPLFlUHe-tYUsubfBO6wMGXnsuDxxK49JM44Z~9WxA78WcCEblJYhVxozq5sgLtZe5SjcZDYu0dAShbYTSEPxhs8ekDPTIbAVJaiLqmlsgCjpC7OABOjt0D5w49DLdkj0GI83pNVaOdFNhOv53KnnliKALzHoA1Gd84i8gV-xmU7ULacuCY~PS3UQvR1QWqsXS4TXq4Ssh4gr3n52oUur6scP0f2YtTbKXPp49NlyqcR191VlOAHABXiqOizEfog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "Just in",
+      "head":"Nike Dri-FIT UV Miler",
+      "product":"Men's Short-Sleeve Running Top",
+      "color":"colour",
+      "price":"1 695.00",
+      "value":[]
+    },
+    {
+      "id": 2,
+      "image": "https://s3-alpha-sig.figma.com/img/4ce7/dace/d7bff2cc2a5f2c552708db7ea0782b17?Expires=1693785600&Signature=J4xJ1UlZBXjRXsk-Q9ir3fnlXFakItx558M0WYlHLn2sVp4Of8lZUmHdjYU61TSRQhg~9awqA8tohSEN-K-~DVu-oHO-coJUNRyAdU9G3nRPB0Qf7wdIc9G3IewYMwHSBVhDpqQ6Wa83nHjcdXJ06kQFA9Si2wC--uvY0hevQM2DsbnpN-upskXl4ZFtxpXhRiXOc03Fi~VzkxUXdPrilHrrl2PLy07KxvXzXUWgFe-CEUu-91IZ7UfEJU0L~soFjcFGHLWwLp9~Nft9JT5RblcNv47tyZXq5UP4SFLeL5LwlROpnXBDZpeCTzS~3rUZIehVjex-N5fqUVwifysp9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "Promo Exclusion",
+      "head":"Nike Air Force 1 Mid '07",
+      "product":"Men's Shoes",
+      "color":"mix",
+      "price":"10 795.00",
+      "value":[]
+    },
+    {
+      "id": 3,
+      "image": "https://s3-alpha-sig.figma.com/img/c2c6/3739/2376675fcfb88fbacee20e713b98c63f?Expires=1693785600&Signature=fjJZgKMa6S07Wz3rIOhH7JgqOebXeDIC61pSZ20tzV9ar1a92IY9SuzaDVZ9oGg5ANTy~ltvUf7wEQXJY1rhPIv5e3K3TMaP4BzcJmfnlkQ3hM6JPQ3Rv3qC8-WVbndj9PQ6NIZSF3qHajQcHY1TnPiICOeMgEF0sQmydL6vFkf9GtF13jJbou4joQX12XhBAt9e5lvKQ-uI8I3ykOr84-DaJ4Gke4hpAMjDlv4m7LyKLLD4IiN4MH7a6b9~DAzQrrdN2lHvsPfIWbR9p145n8XDcPsIm0SDt0ULDT6WQ-DgjH1CbIYer4Pu-7U~ZCv9u2QnLaIBFfwa7YxSWQD9Dg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "just in",
+      "head":"Nike Court Vision Low Next Nature",
+      "product":"Men's Shoes",
+      "color":"white",
+      "price":"4 995.00",
+      "value":[]
+    },
+    {
+      "id": 4,
+      "image": "https://s3-alpha-sig.figma.com/img/f76b/a98a/fe32b822d72c75d6cd7a1c54aa8032cd?Expires=1693785600&Signature=Ft1U-UVbCGKixaPUlLGCxW8J8fBDTD09J-WBhZHEK20rPQTk~p15shq1ABIoH8WKa5v9Qjlu2maAMaLw2-IJWB6bi1-4Hrhir7mvwqo9WUtzihGUJyIvMLU43BUBzlpYnPGW1OJwGkjNmIKCJdtyoGehmWjDpWEZGDtgQOoN07bL7rtpNB5SmN8llaWfN~NVIa6Wg2vpf06Eu5Y54gIAFDmVf~qCcfIAEKKGeOrSd-4vNbKtsOhmuC50BgoZlNvRK3MaYMqasncxVRtstSVqnq8IdHU7B4tIy2At9OSf3SnR1zucV1XPWKsTXaH49~HkcrrNLSQgbWM24z-L9HhI-A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "Just in",
+      "head":"Nike Air Max SYSTM",
+      "product":"Older Kids' Shoes",
+      "color":"Colour",
+      "price":"6 495.00",
+      "value":[]
+    },
+    {
+      "id": 5,
+      "image": "https://s3-alpha-sig.figma.com/img/fe06/b48e/8eca92a69bf30c763c386ca98572e4cf?Expires=1693785600&Signature=U7vo2NtXpOLKJifDVeKFV0z5NvGPzVZYqeFEoRfodajvjDjIzF4~qP~eGUHmaOWkPWwm5~KfZRQhkGpiMy9e-ZfLC9GgOGu4jXRq-MU7jqx~33SabGCCDYU1yrJ1hFlgdKmx8x95SnK5CUNq85TkNDj-c9rNCWMVFYOboJrJC73TMUNjRo7-0otbhEbJ~pH1DNOFZBtx6CtNF43KHO5BPQQNDyFTPVrtVN2hyRYlLN3RrrlVqs31B6ToIpfLoZr~a~oesmBLThS2PTCIHDUER3zD33kaYiS1ja8zrMK1rFfUy~G-gXBkRjuCms4yhphYFwJ1XenN4kzl9PR~zEsoJg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "Promo Exclusion",
+      "head":"Nike Standard Issue",
+      "product":"Women's Basketball Jersey",
+      "color":"Colour",
+      "price":"2 895.00",
+      "value":[]
+    },
+    {
+      "id": 5,
+      "image": "https://s3-alpha-sig.figma.com/img/1e8d/2557/fea61fa45c52170eaa2108d11336faaf?Expires=1693785600&Signature=K8LcOyki~bT--Stv~se1FXQtGdxibcI4vWgzd5UhR8hdxQAsensq2BUZ8SizIa0dPhe-VJu3DHPpQg4RJ1uAa3l9hxfah6hP5TXsBor7ER6u1AfaoTdZDcpTdefJbudOeSwnbJU4sihn0Vixn5dpvKTCir-WlwkAk50yKAO2FYiHIn7A-gCmdfyLIVgVsoG9w8-f7PeWSA0I6dp7Wn5nKzD5b4SMumhbWLOtd0LngRHvp-zLsVCtQbVWtTwaul75RaUY7t6BJMimy3~p8cmZ~2MClpB8ybgd26Toqz7JirOSGa9xKom-7H4Jv7ykgHuGjLurClTA5uwL8DbT8c~Z7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+      "proname": "Just in",
+      "head":"Nike Dri-FIT Totality",
+      "product":"Men's 23cm (approx.) Unlined Shorts",
+      "color":"Colour",
+      "price":"1 795.00",
+      "value":[]
+    }
+    
+  ]
+}

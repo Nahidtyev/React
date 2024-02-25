@@ -1,0 +1,58 @@
+.row{
+    background-color: #1A161F;
+}
+.login-right{
+    height: 100vh;
+    width: 100%;
+    text-align:center;
+    color: #F9F9F9;
+    .cine{
+        margin-top: 20px;
+        color: var(--grayscale-grayscale-10, #F9F9F9);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px; /* 140% */
+        letter-spacing: 0.1px;
+    }
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: 0.16px;
+    }
+    .social{
+        button{
+            border-radius: 20px; 
+            margin: 12px 0;
+            width: 100%;
+            border: none;
+            color: white;
+            padding: 12px 99px;;
+            box-shadow: none;
+            background: var(--additional-colors-line-dark, #29282F);
+            svg{
+                margin-right: 10px;
+            }
+        }
+    }
+    .hr{
+        color: #78828A;
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+        p{
+            font-size: 14px;
+            margin: 0 10px;
+            width: 86px;
+            font-weight: 500;
+            line-height: 22px; /* 157.143% */
+            letter-spacing: 0.07px;
+        }
+        
+        hr{
+            width: 194px;
+            height: 1px;;
+        }
+    }
+    
+}

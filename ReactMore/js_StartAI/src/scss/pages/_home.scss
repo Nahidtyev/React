@@ -1,0 +1,65 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+
+.home{
+    overflow: hidden;
+    margin-top: 75px;
+    border-radius: 10px;
+    @include Flexible($justify:center);
+    .head{
+        font-size: 56px;
+        margin-bottom: 25px;
+        span{
+            font-weight: 900;
+        }
+    }
+    .big_card{
+        overflow: hidden;
+        @include Flexible($justify:center);
+        .left{
+            img:first-child{
+                width: 606px;
+                height: 454px;
+                object-fit: cover;
+                border-top-left-radius: 17px;
+                border-bottom-left-radius:17px ;
+            }
+        }
+        .right{ 
+            @include Flexible($direction:column,$justify:space-between);
+            width: 606px;
+            height: 454px;
+            padding: 3rem;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid $bg_color;
+            border-top-right-radius: 17px;
+            border-bottom-right-radius: 17px;
+            .upper{
+             button{
+                border: none;
+                color: black;
+                padding: 10px 8px;
+                font-size: 14px;
+                background-color: $bg_color;
+                border-radius: 10px;
+             }
+             h1{
+                font-size: 32px;
+                margin-top: 15px;
+             }
+            }
+            .lower{
+                @include Flexible($items:center,$gap:18px);
+                p{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                img{
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+
+.more{
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    @include Flexible($justify:center,$items:center);
+    padding: 20px 0;
+    height: 617px;
+    text-align: center;
+    .savemore{
+        @include Flexible($direction:column,$gap:10px,$items:center);
+        width: 700px;
+        h1{
+            font-size: 48px;
+            line-height: 60px;
+            span{
+                font-weight: 100;
+                font-weight: 900;
+            }
+        }
+        p{
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 900;
+            line-height: 30px;
+        }
+        button{
+            background-color: rgb(161, 4, 161);
+            padding: 14px 17px;
+            border-radius: 25px;
+            border: none;
+            color: white;
+            width: 170px;
+            margin-top: 30px;
+            transition: 0.4s ease;
+        }
+        button:hover{
+            background-color: rgb(90, 2, 90);
+        }
+    }
+}

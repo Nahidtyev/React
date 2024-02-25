@@ -1,0 +1,12 @@
+
+#password{
+    position: relative;
+}
+#icon{
+    position: absolute;
+    right: 5%;
+    bottom: 31%;
+}
+#form{
+    margin-top: 40px;
+}

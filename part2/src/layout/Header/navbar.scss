@@ -1,0 +1,29 @@
+@use "../../styles/varaible/varaible.scss" as *;
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  li {
+    list-style: none;
+  }
+}
+.nav {
+  font-family: $Poppins_font_family;
+  color: $defaultColor;
+  background-color: $primaryColor;
+  padding: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: $defaultSize;
+  li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: $defaultTransition;
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}

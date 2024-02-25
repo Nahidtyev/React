@@ -1,0 +1,22 @@
+.gearup{
+        display: flex;
+        justify-content: center;
+        .heading-f{
+            font-weight: 600;
+            color: #111;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 28px; /* 127.273% */
+        }
+        .navigate{
+            margin-bottom: 10px;
+            margin-right: 34px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 13px;
+            .shop{
+                margin-bottom: 0;
+            }
+        }
+    }

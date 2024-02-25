@@ -1,0 +1,94 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+
+#schedule{
+    .head{
+        @include Flexible($gap:30px,$direction:column,$items:center,$justify:center);
+        span{
+            @extend %defaultspan;
+        }
+        h1{
+            line-height: 50px;
+            text-align: center;
+            max-width: 500px;
+            font-size: 45px;
+            font-weight: 700;
+        }
+    }
+    .services{
+        @include Flexible($justify:center);
+        margin-top: 40px;
+        .category{
+            @include Flexible($gap:20px);
+            li{
+                cursor: pointer;
+            }
+            li:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .card{
+        position: relative;
+        border: none;
+        .title{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            padding: 13px 60px 12px 40px;
+            border-radius: 20px;
+            border: none;
+            background-color: white;
+            font-size: 16px;
+        }
+        .cycle-icon{
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            padding: 13px;
+            border: none;
+            border-radius: 50%;
+            background-color: $bg-color;
+            color: white;
+        }
+        img{
+            border-radius: 10px;
+            margin-bottom: 15px;
+            height: 250px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 900;
+            line-height: 20px;
+            span{
+                @extend %defaultspan;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+    hr{
+        color: black;
+        width: 100%;
+        margin: 50px 0;
+    }
+    .under{
+        margin: 50px 0;
+        @include Flexible($justify:space-between,$items:center);
+        span{
+            @extend %defaultspan;
+        }
+        p{
+            font-size: 25px;
+            font-weight: 900;
+        }
+        .images{
+            margin-right: 10px;
+            @include Flexible($gap:50px);
+            img{
+                height: 80px;
+            }
+        }
+    }
+}

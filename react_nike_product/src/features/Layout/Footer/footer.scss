@@ -1,0 +1,40 @@
+footer{
+    background-color: black;
+    color: white;
+    .foot-first{
+        padding: 40px 34px 0 34px;
+        .left{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+        }
+        .social{
+            display: flex;
+            gap: 15px;
+            color: #7E7E7E;
+        }
+    }
+    .foot-last{
+        padding: 40px 34px 0 34px;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            li{
+                color: #7E7E7E;
+            }
+        }
+        .location{
+            display: flex;
+            align-items: baseline;
+            gap: 40px;
+            font-size: 12px;
+            span{
+                color: #7E7E7E;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 12px; /* 109.091% */
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.promote-card{
+    padding: 12px;
+    .row{
+        justify-content: space-between;
+    }
+    .col-xl-4{
+        display: flex;
+        img{
+            width: 145.6px;
+            height: 112px;
+            margin-right: 16px;
+            border-radius: 8px;
+            background: var(--neutral-03, #EFEFEF);
+        }
+        p{
+            color: var(--neutral-07, #bdbfc0);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+    }
+    .col-xl-1{
+        padding: 0;
+        .fi{
+            padding: 0 7px;
+            border-radius: 6px;
+            background: var(--secondary-04, #4a5e53);
+            border: none;
+            color: var(--neutral-07, #cccdce);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+        .se{
+            margin-bottom: 8px;
+            border: none;
+            border-radius: 6px;
+            background: var(--neutral-03, #EFEFEF);
+            padding: 0 7px;
+            color: var(--neutral-07, #1A1D1F);
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+        .grn{
+            color: #83BF6E;
+            border-radius: 4px;
+            background: var(--neutral-06, #272B30);
+            padding: 4px;
+        }
+        .redd{
+            color: #FF6A55;
+            border-radius: 4px;
+            background: var(--neutral-06, #272B30);
+            padding: 4px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#yup{
+    height: max-content;
+}
+label{
+    text-align: left;
+    color:#78828A;
+}
+.frm{
+    text-align: left;
+    .passworder{
+        position: relative;
+        color: white;
+        #icon{
+            position: absolute;
+            right: 5%;
+            bottom: 26%;
+        }
+    }
+}
+p{
+    text-align: center;
+    .link{
+        text-decoration: none;
+        color:#B43FEB;
+    }
+}
+.Login{
+    margin: 30px 0;
+    background-color: #B43FEB;
+    border: none;
+    color:  white;
+    width: 100%;
+    border-radius: 24px;
+    padding: 16px 32px;
+
+}

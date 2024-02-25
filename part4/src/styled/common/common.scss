@@ -1,0 +1,22 @@
+@use "../utils/varaible.scss" as *;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $black-color !important;
+  color: $white-color !important;
+}
+
+// .layout {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }

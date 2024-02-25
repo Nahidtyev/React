@@ -1,0 +1,85 @@
+.home{
+    h1{
+        margin: 0;
+        padding: 24px 48px;
+        color: var(--neutral-03, #EFEFEF);
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px; /* 120% */
+        letter-spacing: -0.8px;
+    }
+    table{
+        margin-top: 24px;
+        border-radius: 8px;
+        background: var(--neutral-01, #1A1D1F);
+        .head{
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            p{
+                color: var(--neutral-07, #8d9194);
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 32px; /* 160% */
+                letter-spacing: -0.4px;
+                button{
+                    padding: 0;
+                    margin-right: 16px;
+                    border: none;
+                    border-radius: 4px;
+                    background: var(--secondary-03, #B1E5FC);
+                    width: 16px;
+                    height: 32px;
+                }
+            }
+            .newp{
+                border-radius: 8px;
+                background: var(--primary-01, #2A85FF);
+                padding: 8px 16px;
+                border: none;
+                color: var(--neutral-01, #FCFCFC);
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 24px; /* 184.615% */
+                letter-spacing: -0.13px;
+                margin-left: 16px;
+            }
+            button{
+                border-radius: 12px;
+                border: 2px solid var(--neutral-03, #313131);
+                color: var(--neutral-04, white);
+                background-color: #1b1d1f;
+                padding: 8px 16px;
+                height: max-content;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 24px; /* 171.429% */
+                letter-spacing: -0.14px;
+            }
+        }
+        .trname{
+            padding: 24px;
+            color: white;
+            tr{
+                display: flex;
+                justify-content: space-between;
+                th:first-child{
+                    margin-right: 26%;
+                }
+            }
+        }
+        .show-more{
+            margin-left: 45%;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border: 2px solid var(--neutral-06, #272B30);
+            background: var(--neutral-07, #1A1D1F);
+            padding: 12px 20px;
+            color: var(--neutral-01, #FCFCFC);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 24px; /* 160% */
+            letter-spacing: -0.15px;
+        }
+    }
+}

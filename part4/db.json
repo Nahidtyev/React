@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "email": "Ilgar@gmail.com",
+      "name": "Ilgar",
+      "surname": "Verdiyev",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "email": "MammedW@GAMI;L.COM",
+      "name": "MAMMED",
+      "surname": "MAMMMED",
+      "status": "passive",
+      "id": 2
+    },
+    {
+      "email": "bomu@mailinator.com",
+      "name": "Griffith Parks",
+      "surname": "Key",
+      "status": "active",
+      "id": 3
+    },
+    {
+      "email": "tyfutacuwu@mailinator.com",
+      "name": "Gail Harris",
+      "surname": "Meadows",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "email": "Yagub@gmail.com",
+      "name": "yagub",
+      "surname": "Memmdov",
+      "status": "passive",
+      "id": 5
+    },
+    {
+      "email": "naqoxeperu@mailinator.com",
+      "name": "Erica Faulkner",
+      "surname": "Wells",
+      "status": "passive",
+      "id": 6
+    },
+    {
+      "email": "xosuzeh@mailinator.com",
+      "name": "Breanna Kerr",
+      "surname": "Dalton",
+      "status": "passive",
+      "id": 7
+    },
+    {
+      "email": "ledilinef@mailinator.com",
+      "name": "Jack Lyons",
+      "surname": "Tyler",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "email": "dykot@mailinator.com",
+      "name": "Ria Duran",
+      "surname": "Rodgers",
+      "status": "passive",
+      "id": 9
+    },
+    {
+      "email": "fogocopur@mailinator.com",
+      "name": "Philip Gibson",
+      "surname": "Rivas",
+      "status": "passive",
+      "id": 10
+    },
+    {
+      "email": "rojufiwul@mailinator.com",
+      "name": "Shana Little",
+      "surname": "Knight",
+      "status": "active",
+      "id": 11
+    },
+    {
+      "email": "nyhynor@mailinator.com",
+      "name": "Jared Marks",
+      "surname": "Collins",
+      "status": "passive",
+      "id": 12
+    }
+  ]
+}

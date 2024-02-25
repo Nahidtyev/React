@@ -1,0 +1,60 @@
+.best-cards{
+    display: flex;
+    text-align: left;
+    max-height: 137px;
+    margin-bottom: 24px;
+    img{
+        width: 112px;
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 16px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+    .short{
+        min-width: 146px;
+        button{
+            color: #D1D8DD;
+            padding: 4px 8px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background-color: transparent;
+            border: 1px solid #29282F;
+        }
+        p,span{
+            line-height: 30px;
+            color: white;
+            max-height: 24px;
+            margin: 0;
+            
+            .str{
+                color: #FFCD1A;
+                margin-right: 5px;
+            }
+        }
+        .spn{
+            color: var(--grayscale-grayscale-70, #78828A);
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px; /* 166.667% */
+            letter-spacing: 0.06px;
+        }
+        .spn2{
+            text-align: center;
+            color: var(--grayscale-grayscale-10, #F9F9F9);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.08px;
+        }
+        p{
+            overflow:hidden;
+            text-overflow: ellipsis;
+            word-wrap: nowrap;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.08px;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "card": [
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd43618274f764910_image9.jpeg",
+            "category":"Analytics",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e64_author1.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd4361825117648f3_image8.jpeg",
+            "category":"Resources",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e66_author3.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd4361871b67648f1_image13.jpeg",
+            "category":"Business",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e63_author2.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/639707afd6a20c37a66375f0/6422eaedd4361852d5768e5a_image16.jpeg",
+            "category":"Resources",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e66_author3.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/639707afd6a20c37a66375f0/6422eaedd436186b28768e59_image7.jpeg",
+            "category":"Business",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e64_author1.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd43618dea9764911_image10.jpeg",
+            "category":"Analytics",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e63_author2.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd4361825117648f3_image8.jpeg",
+            "category":"Business",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e64_author1.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd4361871b67648f1_image13.jpeg",
+            "category":"Analytics",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e63_author2.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        },
+        {
+            "image":"https://assets.website-files.com/6422e700b344d072f71435f2/6422e70cd43618274f764910_image9.jpeg",
+            "category":"Resources",
+            "head":"5 Great Web Design Resources",
+            "content":"Est placeat perspicia",
+            "userimg":"https://assets.website-files.com/6465ef4a3ebaf6d1094d9e61/6465ef4a3ebaf6d1094d9e66_author3.png",
+            "username":"Anna Onerea",
+            "date":"March 28, 2023 • 3 min read"
+        }
+    ]
+  }

@@ -1,0 +1,140 @@
+#home{
+    background-color: #1A161F;
+    .col-xl-3{
+        padding: 0;
+    }
+    .col-xl-7{
+        background-color: #0D0C0F;
+    }
+    .home-trailers{
+        background-color: #0D0C0F;
+        height: 100%;
+        padding: 20px 10px 0 10px;
+        .trailer{
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 24px;
+            }
+            .info{
+                position: absolute;
+                left: 5%;
+                bottom: 5%;
+                button:first-child{
+                    border-radius: 24px;
+                    border: none;
+                    padding: 8px 16px;
+                    background-color:#52565a;
+                    color: #F9F9F9;
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+                h1{
+                    color: var(--grayscale-grayscale-10, #F9F9F9);
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 40px; /* 125% */
+                    letter-spacing: 0.16px;
+                }
+                p{
+                    color: #bcbec0;
+                    font-size: 12px;
+                }
+                .btns{
+                    width: 354px;
+                    #mybtn{
+                        border-radius: 24px;
+                        background-color:#B43FEB ;
+                        padding: 16px 24px;
+                        font-size: 16px;
+                        border: none;
+                        color: white;
+                    }
+                    button:nth-child(2){
+                        background-color: transparent;
+                        border:  none;
+                        margin-left: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .companies{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            gap: 20px;
+            button{
+                background-color: #1A161F;
+                border-radius: 16px;
+                border: 1px solid var(--additional-colors-line-dark, #29282F);
+                display: flex;
+                padding: 16px 32px;
+                justify-content: center;
+                align-items: center;
+                gap: 24px;
+                svg{
+                    background-color: #1A161F;
+                }
+            }
+        }
+        .watch{
+            margin-top: 40px;
+            color: white;
+            h4{
+                color: var(--grayscale-grayscale-10, #F9F9F9);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px; /* 133.333% */
+                letter-spacing: 0.12px;
+            }
+            .keep-watch{
+                margin-top: 35px;
+                img{
+                    margin:0 10px 0 0;
+                    width: 300px;
+                    height: 209px; 
+                    border-radius: 16px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .home-right{
+        background-color: #0D0C0F;
+        text-align: center;
+        h6{
+            text-align: left;
+            margin-left: 20px;
+            color: var(--grayscale-grayscale-10, #F9F9F9);
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px; /* 140% */
+            letter-spacing: 0.1px;
+        }
+        .search{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px;
+        }
+        #search{
+            border-radius: 24px;
+            padding: 5px 10px;
+            border: 1px solid #29282F;
+            background-color: transparent;
+            color: #78828A;
+            outline: none;
+        }
+        .see{
+            border-radius: 24px;
+            margin-bottom: 32px;
+            width: 274px;
+            padding: 12px 24px;
+            color: #B43FEB;
+            background-color:#1A161F;
+            border:1px solid #B43FEB;
+        }
+    }
+}

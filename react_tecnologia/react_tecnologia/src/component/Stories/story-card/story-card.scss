@@ -1,0 +1,48 @@
+.card{
+    max-width: 407px;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 203, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    cursor: pointer;
+    span{
+        font-size: 12px;
+    }
+    .learn{
+        color: black;
+        font-size: 13px;
+    }
+    .learn:hover{
+        color: rgb(72, 72, 247);
+        transition: 0.4s ease;
+    }
+    img{
+        width: 364px;
+        height: 264px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    h3{
+        width: 90%;
+        margin: 0;
+    }
+    h3:hover{
+        color: rgb(72, 72, 247);
+        transition: 0.4s ease;
+    }
+    p,span{
+        color: gray;
+        line-height: 23px;
+    }
+    .serv{
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 16px;
+        }
+    }
+}

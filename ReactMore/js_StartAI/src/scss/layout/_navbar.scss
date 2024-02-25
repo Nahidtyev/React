@@ -1,0 +1,119 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+body{
+    font-family: $default_font_family;
+    background-color: #ffffff;
+}
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+  }
+  
+.dark-mode .changer .dark_mode {
+    color: #f1f1f1;
+  }
+nav{
+    margin-top: 20px ;
+    font-size: $default_font_size ;
+    @include Flexible($justify:space-between,$items:baseline);
+    .changer{
+        position: relative;
+        .dark_mode{
+            width: 65px;
+            height: 35px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        .circle{
+            background-color: white;
+            position: absolute;
+            top: 5px;
+            left: 8px;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            transition: 0.4s ease;
+        }
+        .circle.active{
+            left:33px;
+        }
+    }
+    
+    .totop{
+        position: fixed;
+        right: 2%;
+        bottom: 4%;
+        z-index: 999;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: none;
+        transition: 0.4s ease;
+    }
+    .totop:hover{
+        border: 1px solid aliceblue;
+        background-color: purple;
+        color: white;
+    }
+    .left{
+        @include Flexible($items:center,$gap:30px);
+        img{
+            width: 140px;
+            height: 39px;
+        }
+        ul{
+            @include Flexible($gap:20px);
+            li:hover{
+                cursor: pointer;
+                color: rgb(44, 44, 247) ;
+            }
+        }
+    }
+    .right{
+        position: relative;
+        @include Flexible($gap:8px);
+        button:first-child{
+            padding: 15px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 40px;
+        }
+        button:nth-child(2){
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            border-radius: 50%;
+            padding: 0 13px;
+        }
+        .user{
+            font-size: 20px;
+            padding: 13px 14px;
+            background-color: $bg_color;
+            border: none;
+            border-radius: 50%;
+        }
+        .user:hover .sign{
+            opacity: 1;
+            visibility: visible;
+        }
+        .sign{
+            position: absolute;
+            right: -70px;
+            bottom: -99px;
+            opacity: 0;
+            visibility: hidden;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 25px;
+            line-height: 40px;
+            letter-spacing: 1px;
+            font-weight: 600;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: 0.2s ease;
+        }
+    }
+}

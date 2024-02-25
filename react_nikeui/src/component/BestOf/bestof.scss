@@ -1,0 +1,19 @@
+.bestof{
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        span{
+            font-weight: 600;
+            color: #111;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 28px; /* 127.273% */
+        }
+        .navigate{
+            display: flex;
+            align-items: baseline;
+            gap: 13px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+@use "../partials/varaible" as *;
+@use "../partials/mixin" as *;
+@use "../partials/extend" as *;
+
+#history{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: transparent;
+    .motivate{
+        object-fit: contain;
+        position: relative;
+        .image{
+            position: relative;
+            .pink-shadow{
+                background-color: pink;
+                opacity: 0.2;
+                width: 85%;
+                height: 80%;
+                border-radius: 15px;
+                position: absolute;
+                z-index: -1;
+                bottom: -4%;
+                right: -7%;
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius:  15px;
+            }
+        }
+        .card_name{
+            position: absolute;
+            bottom: 30px;
+            z-index: 999;
+            left: -80px;
+            @include Flexible($items:center);
+            .sp{
+                padding: 15px 30px 15px 40px;
+                margin-left: -24px;
+                background-color: white;
+                border-top-right-radius: 45px;
+                border-bottom-right-radius: 45px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                span{
+                    @extend %defaultspan;
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 27px;
+                    font-weight: 700;
+                }
+            }
+            button{
+                z-index: 999;
+                border-radius: 50%;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                width: 75px;
+                height: 75px;
+                border: none;
+                background-color: $bg-color;
+            }
+        }
+    }
+    .information{
+        margin-left: 120px ;
+        span{
+            @extend %defaultspan;
+            font-size: 20px;
+        }
+        h1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 45px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 16px;
+        }
+        .all_info{
+            margin-top: 30px;
+            .info{ margin-top: 5px;           
+                background-color: #fafafa;
+                border-radius: 15px;
+                padding: 30px;
+                @include Flexible($justify:space-between);
+                span{
+                    word-spacing: 1px;
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                
+
+            }
+        }
+    }
+}

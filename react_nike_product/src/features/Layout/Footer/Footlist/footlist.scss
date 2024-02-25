@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    li{
+        padding-bottom: 19px;
+        color: #7E7E7E;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px; /* 233.333% */
+    }
+    li:first-child{
+        color: white;
+        font-size: 14px;
+    }
+}

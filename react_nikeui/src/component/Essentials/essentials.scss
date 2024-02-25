@@ -1,0 +1,34 @@
+.essentials{
+    span{
+        margin-bottom: 25px;
+        color: #111;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 28px; /* 127.273% */
+        font-weight: 600;
+    }
+    .lists{
+        margin-top: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            list-style: none;
+            label{
+                padding-bottom: 24px;
+                color: #111;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 24px; /* 160% */
+            }
+            li{
+                padding-right: 106px;
+                padding-bottom: 12px;
+                color: #757575;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 24px; /* 160% */
+            }
+        }
+    }
+}

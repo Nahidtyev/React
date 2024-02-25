@@ -1,0 +1,17 @@
+.user {
+  background-color: black;
+  width: 400px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  h1,
+  h2,
+  h3 {
+    color: white;
+    font-size: 1rem;
+    margin: 12px 0;
+  }
+}

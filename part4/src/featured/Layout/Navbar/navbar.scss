@@ -1,0 +1,17 @@
+@use "../../../styled/utils/varaible.scss" as *;
+@use "../../../styled/utils/mixin.scss" as *;
+nav {
+  background-color: $primary-color;
+  padding: 20px;
+}
+
+.list {
+  @include Flexible(center, flex-end, 20px, nowrap, row);
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

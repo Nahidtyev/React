@@ -1,0 +1,57 @@
+@use "../partials/extend" as*;
+@use "../partials/varaible" as*;
+@use "../partials/mixin" as*;
+body{
+    font-family: $default_font_family;
+}
+nav{
+    .container{
+        width: 100%;
+        position: relative;
+        .navbar{
+            margin-top: 20px;
+            width: 1116px;
+            position: fixed;
+            z-index: 99999999999;
+            background-color: white;
+            @include Flexible($justify:space-between,$items:center);
+            padding: 30px;
+            border-radius: 5px;
+            .image{
+                img{
+                    width:121px ;
+                    height: 35px ;
+                }
+            }
+            .nav-right{
+                margin-right: 110px;
+                .list{
+                    @include Flexible($gap:20px);
+                    @extend %defaultsize;
+                    letter-spacing: 1px;
+                    li i{
+                        margin-left: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+        .join-btn{
+            position: absolute;
+            right: 0;
+            font-size: 16px;
+            @extend %defaultsize;
+            padding: 41px 30px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: $bg-color;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .join-btn:hover{
+            background-color: #942945;
+        }
+    }
+}
