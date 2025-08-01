@@ -11,7 +11,6 @@ export const Animal = () => {
     </div>
   );
 };
-
 export const Yagub = ({ name, surname, age }) => {
   return (
     <div>

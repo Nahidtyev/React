@@ -18,7 +18,6 @@ const App = () => {
             />
           ))}
       </div>
-
       <div className="data">
         {TodoItems &&
           TodoItems.map((todo, index) => {

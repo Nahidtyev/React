@@ -18,7 +18,6 @@ const Promote = () => {
   const handleShowMore = () => {
     setShowMore(true);
   };
-
   const renderCards = () => {
     if (!data) {
       return null;
