@@ -11,7 +11,6 @@ const App = () => {
               <button className="btn btn-danger">Add</button>
             </div>
           </div>
-
           <TodoList />
         </div>
       </div>

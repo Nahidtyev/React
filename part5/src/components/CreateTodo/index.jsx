@@ -12,7 +12,7 @@ const CreateTodo = ({ submit, loading, ...props }) => {
     e.preventDefault();
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-
+ 
   return (
     <section {...props}>
       <div className="max-w-[1000px] mx-auto ">
