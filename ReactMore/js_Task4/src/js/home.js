@@ -23,8 +23,8 @@ SearchData.addEventListener('keyup',(e)=>{``
                     <p>${data.description}...</p>
                     <i id="delete" class="fa-solid fa-trash-can"></i>
                 </div>
-            </div>
-        </div>`;
+            </div>   
+        </div>`
         const DeleteVacancy= document.querySelectorAll("#delete");
 
         for (let i = 0; i < DeleteVacancy.length; i++) {
